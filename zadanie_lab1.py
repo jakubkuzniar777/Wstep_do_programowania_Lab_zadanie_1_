@@ -2,37 +2,55 @@
 #a)
 one=1+2
 print(type(one))
+#wyjaśnienie: dodawanie
 
 two=1+4.5
 print(type(two))
+#wyjaśnienie: dodawanie
 
 three=3/2
 print(type(three))
+#wyjaśnienie: dzielenie zmiennoprzecinkowe
 
-four=4//2
+four=4/2
 print(type(four))
+#wyjaśnienie: dzielenie zmiennoprzecinkowe
 
 five=3//2
 print(type(five))
+#wyjaśnienie: dzielenie całkowite
 
 six=-3//2
 print(type(six))
+#wyjaśnienie: dzielenie całkowite
 
 seven=11%2
 print(type(seven))
+#wyjaśnienie: dzielenie modulo (reszta z dzielenia)
 
 eight=2**10
 print(type(eight))
+#wyjaśnienie: potęgowanie
 
 nine=8**(1/3)
 print(type(nine))
+#wyjaśnienie: potęgowanie
 
 #b)
 print(int(3.0))
+#wyjaśnienie: zamienia liczbę zmiennoprzecinkową na całkowitą
+
 print(float(3))
+#wyjaśnienie: zamienia liczbę całkowitą na zmiennoprzecinkową
+
 print(float("3"))
+#wyjaśnienie: zamienia tekst zawierający cyfrę na liczbę zmiennoprzecinkową
+
 print(str(12.4))
+#wyjaśnienie: zamienia wartość liczbową na łańcuchy znaków, napisy
+
 print(bool(0))
+#wyjaśnienie: umożliwia ocenę dowolnego wyrażenia (prawda lub fałsz); liczba 0 daje fałsz
 
 #2
 uczelnia='Studiuje na WSIiZ'
