@@ -53,7 +53,7 @@ print(bool(0))
 #wyjaśnienie: umożliwia ocenę dowolnego wyrażenia (prawda lub fałsz); liczba 0 daje fałsz
 
 #2
-uczelnia='Studiuje na WSIiZ'
+uczelnia='Studiuję na WSIiZ'
 print(uczelnia)
 
 #3
