@@ -67,31 +67,31 @@ print('Mój wzrost to' ,wzrost, 'cm.')
 Cena=39.99
 Rabat=0.2
 cena_po_rabacie=Cena * (1-Rabat)
-print(round(cena_po_rabacie,2))
+print(f'Cena po rabacie: {cena_po_rabacie:.2f} PLN')
 
 #5
-a=float(input('Podaj długość perwszego boku: '))
+a=float(input('Podaj długość pierwszego boku: '))
 b=float(input('Podaj długość drugiego boku: '))
 pole=a*b
 obwód=2*(a+b)
 print(f'Pole prostokąta wynosi: {pole}')
-print(f'Obwód prostokąta wynosi: {obwód}',)
+print(f'Obwód prostokąta wynosi: {obwód}')
 
 #6
 import random
 
-print("Obliczanie kosztów podróży")
+print('Obliczanie kosztów podróży')
 droga = random.randint(50, 500)
-print(f"Wylosowana długość trasy: {droga} km")
+print(f'Wylosowana długość trasy: {droga} km')
 
-spalanie = float(input("Podaj średnie spalanie samochodu (l/100 km): "))
-cena_paliwa = float(input("Podaj aktualną cenę paliwa (zł/l): "))
+spalanie = float(input('Podaj średnie spalanie samochodu (l/100 km): '))
+cena_paliwa = float(input('Podaj aktualną cenę paliwa (zł/l): '))
 
 zuzycie_paliwa = (droga * spalanie) / 100
 koszt_podrozy = zuzycie_paliwa * cena_paliwa
 
-print("Wynik podróży")
-print(f"Przejechana droga: {droga} km")
-print(f"Średnie spalanie: {spalanie} l/100 km")
-print(f"Przewidywane zużycie paliwa: {zuzycie_paliwa:.2f} l")
-print(f"Szacowany koszt podróży: {koszt_podrozy:.2f} zł")
+print('Wynik podróży')
+print(f'Przejechana droga: {droga} km')
+print(f'Średnie spalanie: {spalanie} l/100 km')
+print(f'Przewidywane zużycie paliwa: {zuzycie_paliwa:.2f} l')
+print(f'Szacowany koszt podróży: {koszt_podrozy:.2f} zł')
